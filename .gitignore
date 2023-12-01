@@ -714,6 +714,10 @@ FodyWeavers.xsd
 # executables
 Markov
 Ascii
+Fizzbuzz
+
+# esceptions
+!44/makefile
 
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio

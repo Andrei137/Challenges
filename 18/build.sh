@@ -1,0 +1,1 @@
+sudo apt install -y libopencv-dev; cmake . -B build; cd build; make
