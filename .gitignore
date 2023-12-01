@@ -713,6 +713,7 @@ FodyWeavers.xsd
 
 # executables
 Markov
+Ascii
 
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
