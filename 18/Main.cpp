@@ -8,12 +8,11 @@ void convert_to_ascii(const cv::Mat& a_image, int a_width, int a_height)
     int height_scale{ a_image.rows / a_height };
 
     // Define a string of ASCII characters from most to least intense
-    // "@%#*+=-:. "
     const std::string ascii_chars{ "  .:;-=+*?!&$%#@" };
 
     std::ofstream out{ "Ascii.txt" };
 
-    // Iterate over each "pixel" in the ASCII image
+    // Iterate over each block of pixels
     for (int y = 0; y < a_height; ++y) 
     {
         for (int x = 0; x < a_width; ++x) 
@@ -67,6 +66,9 @@ int main(int argc, char* argv[])
 
     // Convert the image to ASCII art
     convert_to_ascii(image, target_width, target_height);
+
+    // Success message
+    std::cout << "ASCII art saved successfully.\n";
 
     return 0;
 }

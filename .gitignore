@@ -715,6 +715,7 @@ FodyWeavers.xsd
 Markov
 Ascii
 Fizzbuzz
+Occurrences
 
 # esceptions
 !44/makefile

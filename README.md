@@ -16,3 +16,4 @@ Doing all the Pro/g/ramming Challenges here.
 - [x] 04. [Markov Chain Sentence Generator](https://github.com/Andrei137/Challenges/tree/main/04)
 - [x] 18. [Image to ASCII Art](https://github.com/Andrei137/Challenges/tree/main/18)
 - [x] 44. [Fizzbuzz](https://github.com/Andrei137/Challenges/tree/main/44)
+- [x] 46. [Counts occurrences of characters in a Given String](https://github.com/Andrei137/Challenges/tree/main/46)
