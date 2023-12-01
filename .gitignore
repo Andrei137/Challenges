@@ -1,5 +1,3 @@
-
-
 # Created by https://www.toptal.com/developers/gitignore/api/c++,clion,cmake,codeblocks,emacs,gcov,sublimetext,vim,visualstudio,visualstudiocode,xcode
 # Edit at https://www.toptal.com/developers/gitignore?templates=c++,clion,cmake,codeblocks,emacs,gcov,sublimetext,vim,visualstudio,visualstudiocode,xcode
 
@@ -168,7 +166,6 @@ _deps
 *.layout
 *.depend
 # generated directories
-bin/
 obj/
 
 ### Emacs ###
@@ -711,14 +708,9 @@ FodyWeavers.xsd
 # Sublime Text
 *.sublime-project
 
-# executables
-Markov
-Ascii
-Fizzbuzz
-Occurrences
-
 # esceptions
 !44/makefile
+!bin/
 
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio

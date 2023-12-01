@@ -1,15 +1,15 @@
-# Programming Challenges
+# Challenges
 
 Doing all the Pro/g/ramming Challenges here.
 
 ![pro/g/ramming challenges](https://imgur.com/OQ6B6ir.png)
 
-## Dependencies
+## Folder structure
 
-- [MinGW](https://www.mingw-w64.org/downloads/)
-- [CMake](https://cmake.org/download/)
-- [Make](http://gnuwin32.sourceforge.net/packages/make.htm)
-- [OpenCV](https://opencv.org/releases/)
+- src/* - source code
+- bin/* - executables for both Windows and Linux and input/output files
+- build.bat - builds the project on Windows
+- build.sh - builds the project on Linux
 
 ## Finished Projects
 
